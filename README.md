@@ -35,3 +35,7 @@ For example, if you feed the program an initial guess of 0.07 and 0.8 for x1alph
 On the other hand, if we feed the program 0.2 for x1alpha and 0.9 for x1beta, at one of the iterations the calculated jacobian will have an RCON number<0.001 which shows as an error when we run the program. This means that using newton raphson with the obtained jacobian won’t give accurate approximations of the new x1alpha and x1beta.
 Finally, if we use x1alpha=0 and x1beta=0.9 for example, newton raphson will diverge from the first iteration.
 
+HOW TO RUN?
+
+Run script YousefKhalilProject4(xg) where xg is the initial guess of composition
+
